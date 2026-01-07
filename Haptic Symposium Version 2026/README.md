@@ -3,5 +3,5 @@
 
 <br/><br/><br/>
 By: Auburn University Wearable and Bio-Robotics Lab and University of Utah Human-Centered Haptics And Robotics Lab <br/>
-PIs: **Chad G. Rose**, **EDoardo Battaglia** <br/>
+PIs: **Chad G. Rose**, **Edoardo Battaglia** <br/>
 Graduate Researchers: **Mason Mathias**, **Davis Poole**, **Pengshun Tang**, **Quinton Christenson** <br/>
