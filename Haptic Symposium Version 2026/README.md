@@ -5,3 +5,5 @@
 By: Auburn University Wearable and Bio-Robotics Lab and University of Utah Human-Centered Haptics And Robotics Lab <br/>
 PIs: **Chad G. Rose**, **Edoardo Battaglia** <br/>
 Graduate Researchers: **Mason Mathias**, **Davis Poole**, **Pengshun Tang**, **Quinton Christensen** <br/>
+
+The Hardware folder contains a Bill of Materials and the necessary CAD files to begin printing. The Software folder includes necessary scripts for setup of the device and simulation. Documentation includes information on building, calibration, and simulation setup. 
