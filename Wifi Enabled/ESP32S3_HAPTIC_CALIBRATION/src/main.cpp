@@ -1,18 +1,33 @@
 #include <Arduino.h>
 
-// put function declarations here:
-int myFunction(int, int);
+// Pin assignments
+const int stdby = 1;
+const int a1 = 2;
+const int a2 = 4;
+const int pwma = 26;
+const int PIN = 5;
+
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  Serial.begin(9600);
+
+  Serial.println("System starting...");
+
+  pinMode(PIN, OUTPUT);
+  pinMode(stdby, OUTPUT);
+  pinMode(a1, OUTPUT);
+  pinMode(a2, OUTPUT);
+  pinMode(pwma, OUTPUT);
+  digitalWrite(stdby, HIGH);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-}
+  int current_position = analogRead(a1);
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  // Print raw sensor reading
+  Serial.print("Sensor reading: ");
+  Serial.println(current_position);
+
+  
+  delay(200); // slow down prints
 }
