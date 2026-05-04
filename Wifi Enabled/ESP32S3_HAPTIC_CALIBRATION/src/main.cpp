@@ -29,5 +29,5 @@ void loop() {
   Serial.println(current_position);
 
   
-  delay(200); // slow down prints
+  delay(1000); // slow down prints
 }
